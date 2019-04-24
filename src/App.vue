@@ -38,7 +38,7 @@ export default {
     };
   },
   created() {
-    this.flag = (this.$route.path === "/home") ||(this.$route.path === "/my")||(this.$route.path === "order")? false : true;
+    this.flag = (this.$route.path === "/home") ||(this.$route.path === "/my")||(this.$route.path === "/order")? false : true;
   },
   methods: {
     goBack() {
