@@ -29,32 +29,32 @@
       <!--页眉，放置标题-->
       <div class="mui-card-header">请选择服务</div>
       <!--内容区-->
-      <div class="mui-card-content">
+      <div class="mui-card-content" @click="goreservation">
         <div class="left">
           <p>单人剪头发</p>
           <p>不推销, 不办卡, 纯剪发</p>
         </div>
-        <div class="right" @click="goreservation">
+        <div class="right" >
           <span>$39.8</span>
           <span class="mui-icon mui-icon-arrowright"></span>
         </div>
       </div>
-      <div class="mui-card-content">
+      <div class="mui-card-content" @click="goreservation">
         <div class="left">
           <p>单人剪头发</p>
           <p>不推销, 不办卡, 纯剪发</p>
         </div>
-        <div class="right" @click="goreservation">
+        <div class="right" >
           <span>$39.8</span>
           <span class="mui-icon mui-icon-arrowright"></span>
         </div>
       </div>
-      <div class="mui-card-content">
+      <div class="mui-card-content" @click="goreservation">
         <div class="left">
           <p>单人剪头发</p>
           <p>不推销, 不办卡, 纯剪发</p>
         </div>
-        <div class="right" @click="goreservation">
+        <div class="right" >
           <span>$39.8</span>
           <span class="mui-icon mui-icon-arrowright"></span>
         </div>

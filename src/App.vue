@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <!-- 顶部 Header 区域 -->
-    <mt-header fixed title="星客多">
+    <mt-header fixed title="要预约服务">
       <span slot="left" @click="goBack" v-show="flag">
         <mt-button icon="back">返回</mt-button>
       </span>
@@ -62,6 +62,7 @@ export default {
 <style lang="scss" scoped>
 .mint-header {
   z-index: 99;
+  padding-bottom: 8px;
 }
 .app-container {
   padding-top: 40px;

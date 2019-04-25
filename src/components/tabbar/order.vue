@@ -49,11 +49,11 @@ export default {
   },
   methods: {},
   created() {
-    Toast({
-      message: "提示",
-      position: "bottom",
-      duration: 1000
-    });
+    // Toast({
+    //   message: "提示",
+    //   position: "bottom",
+    //   duration: 1000
+    // });
   }
 };
 </script>

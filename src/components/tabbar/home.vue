@@ -22,7 +22,7 @@
             <p class="juli">87.8km</p>
           </div>
           <p class="bottom">
-            <span class="mui-icon mui-icon-location-filled"></span>松江区
+            松江区
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@
             <p class="juli">87.8km</p>
           </div>
           <p class="bottom">
-            <span class="mui-icon mui-icon-location-filled"></span>松江区
+            松江区
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@
             <p class="juli">87.8km</p>
           </div>
           <p class="bottom">
-            <span class="mui-icon mui-icon-location-filled"></span>松江区
+            松江区
           </p>
         </div>
       </div>
@@ -76,7 +76,7 @@
             <p class="juli">87.8km</p>
           </div>
           <p class="bottom">
-            <span class="mui-icon mui-icon-location-filled"></span>松江区
+            松江区
           </p>
         </div>
       </div>

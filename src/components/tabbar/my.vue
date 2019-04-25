@@ -37,7 +37,7 @@
             <li class="mui-table-view-cell">
               <a class="mui-navigate-right">
                 <span class="glyphicon glyphicon-euro"></span>
-                私人头发管家
+                预约服务
               </a>
             </li>
             <li class="mui-table-view-cell">
@@ -54,12 +54,6 @@
               </a>
             </li>
             <li class="mui-table-view-cell">
-              <a class="mui-navigate-right">
-                <span class="glyphicon glyphicon-leaf"></span>
-                发型精选
-              </a>
-            </li>
-            <li class="mui-table-view-cell">
               <a class="mui-navigate-right right">
                 <span class="glyphicon glyphicon-compressed"></span>
                 <span>投诉建议</span>
@@ -68,9 +62,9 @@
             </li>
             <li class="mui-table-view-cell">
               <a class="mui-navigate-right">
-                <span class="icon-crying2"></span>
+                <!-- <span class="icon-crying2"></span> -->
                 <span class="glyphicon glyphicon-user"></span>
-                关于星客多
+                关于预约服务
               </a>
             </li>
           </ul>
@@ -125,7 +119,12 @@
           display: flex;
           justify-content: space-around;
           text-align: center;
+          align-content: center;
+          padding: 10px 0;
           div {
+            p{
+              margin: 0;
+            }
           }
         }
       }
