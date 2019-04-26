@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <!-- 顶部 Header 区域 -->
-    <mt-header fixed title="要预约服务">
+    <mt-header fixed title="预约服务">
       <span slot="left" @click="goBack" v-show="flag">
         <mt-button icon="back">返回</mt-button>
       </span>
@@ -60,15 +60,39 @@ export default {
 
 
 <style lang="scss" scoped>
+h1{
+  margin:0!important;
+}
 .mint-header {
   z-index: 99;
-  padding-bottom: 8px;
+  // padding-bottom: 8px;
+}
+.mint-header-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: inherit;
+    font-weight: 400;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0;
 }
 .app-container {
   padding-top: 40px;
   padding-bottom: 50px;
   overflow-x: hidden;
 }
+// .mint-header .mint-button {
+//     background-color: transparent;
+//     border: 0;
+//     box-shadow: none;
+//     color: inherit;
+//     display: inline-block;
+//     padding: 0;
+//     font-size: inherit;
+//     padding-top: 15px;
+// }
 //分开来写
 .v-enter {
   opacity: 0;

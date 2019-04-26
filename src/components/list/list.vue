@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="imgCon">
-      <img src="http://img06.tooopen.com/images/20160921/tooopen_sy_179583447187.jpg" alt>
+      <img src="../../lib/images/tooopen_sy_179583447187.jpg" alt>
     </div>
     <div class="mui-card listCon2">
       <!--页眉，放置标题-->
@@ -85,6 +85,7 @@ export default {
   .listCon {
     padding: 0;
     margin: 0;
+    margin-top: 0;
     padding-top: 0 !important;
     .mui-card-header {
       display: flex;
