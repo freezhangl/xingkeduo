@@ -107,10 +107,15 @@ export default {
 
 <style lang="scss" scoped>
 .homeCon {
+  width: 100%;
+  // height: 100%;
+  box-sizing: border-box;
   padding: 0 8px;
+  // box-sizing: border-box;
 }
 .mint-swipe {
   height: 200px;
+  // margin-bottom: 20px;
   .mint-swipe-item {
     &:nth-child(1) {
       background: red;
@@ -180,10 +185,11 @@ export default {
       }
     }
   }
-  margin-top: 10px;
+  // margin-top: 10px;
   padding: 0px 10px;
-  padding-top: 10px;
+  // padding-top: 10px;
   background: white;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 </style>

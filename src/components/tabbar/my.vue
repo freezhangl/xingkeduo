@@ -60,7 +60,7 @@
                 <span>400-234-2332</span>
               </a>
             </li>
-            <li class="mui-table-view-cell">
+            <li class="mui-table-view-cell" @click="go">
               <a class="mui-navigate-right">
                 <!-- <span class="icon-crying2"></span> -->
                 <span class="glyphicon glyphicon-user"></span>
@@ -75,6 +75,16 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    go: function() {
+      this.$router.push({ name: "reservation" });
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -122,7 +132,7 @@
           align-content: center;
           padding: 10px 0;
           div {
-            p{
+            p {
               margin: 0;
             }
           }
